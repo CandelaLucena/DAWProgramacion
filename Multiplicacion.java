@@ -16,8 +16,9 @@ public class Multiplicacion
 				System.out.println(z +", es mayor que 10");
 			else
 				System.out.println(z +", no es mayor que 10");
+				
+			sc.close();
+			
+		}
 	}
-
-	
-}
 
