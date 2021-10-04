@@ -6,15 +6,14 @@ public class Ejercicio10 {
         int x;
         
         System.out.println("Introduzca un numero");
-
         x = sc.nextInt();
+        sc.close();
+
             if (x >= 0) {
                 System.out.println("Positivo");
                 }else{
                     System.out.println("Negativo");
                 }
-                sc.close();
+                
             }
-
-        
 }
