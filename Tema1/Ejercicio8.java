@@ -10,8 +10,7 @@ public class Ejercicio8 {
         
             if (edad >= 18){
                 System.out.println("Tienes la edad legal");
-            }else{
-                
-        }
+                }else{      
+            }
     }
 }

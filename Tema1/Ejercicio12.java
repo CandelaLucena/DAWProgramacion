@@ -13,6 +13,6 @@ public class Ejercicio12 {
             System.out.println(x +" es mayor");
             }else{
             System.out.println(y +" es mayor");
-       }
+            }    
     }
 }

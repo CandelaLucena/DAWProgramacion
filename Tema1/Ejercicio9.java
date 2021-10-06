@@ -8,10 +8,10 @@ public class Ejercicio9 {
         edad = sc.nextInt();
         sc.close();
 
-        if (edad >= 18) {
-            System.out.println("Tienes la edad legal");  
-        }else{
-            System.out.println("No tienes la edad legal"); 
+            if (edad >= 18) {
+              System.out.println("Tienes la edad legal");  
+              }else{
+              System.out.println("No tienes la edad legal"); 
         
             }
     }

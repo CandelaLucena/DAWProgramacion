@@ -13,6 +13,5 @@ public class Ejercicio2 {
         int resultado = (dividendo/divisor) + sumarAlFinal;
 
 		System.out.println(resultado);
-
     }
 } 
