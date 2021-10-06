@@ -12,6 +12,7 @@ public class Ejercicio12 {
             if (x>y){
             System.out.println(x +" es mayor");
             }else{
-            }
+            System.out.println(y +" es mayor");
        }
+    }
 }
