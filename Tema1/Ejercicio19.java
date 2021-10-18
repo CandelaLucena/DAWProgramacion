@@ -19,11 +19,11 @@ public class Ejercicio19 {
             salarioBruto = salarioCalculo + salarioExtra;
         }
         if ((salarioBruto > 500) && (salarioBruto <= 900)){
-            salarioNeto = ((salarioBruto - 500) * 0.25 + 500);
+            salarioNeto = ((salarioBruto - 500) * 0.75 + 500);
             impuesto = salarioBruto - salarioNeto;
         }
         if (salarioBruto > 900){
-            salarioNeto = ((salarioBruto - 900) * 0.45) + 500 + (400 * 0.25);
+            salarioNeto = ((salarioBruto - 900) * 0.55) + 500 + (400 * 0.75);
             impuesto = salarioBruto - salarioNeto;
         }
         System.out.println("Salario bruto: "+salarioBruto);
