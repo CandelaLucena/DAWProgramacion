@@ -2,23 +2,23 @@ import java.util.Scanner;
 public class Ejercicio24{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int contador, notas, excelentes;
-        contador = 0;
+        double notas, excelentes, suma, notamedia;
         excelentes = 0;
         notas = 0;
+        suma = 0;
+        notamedia = 0;
 
-        while (contador < 10){
-            System.out.println("Escribe diez numeros enteros positivos o negativos");
+        while (notas != -1){
+            System.out.println("Escribe las notas");
             notas = scanner.nextInt();
-            
             if (notas == 10){
                 excelentes = excelentes + 1;
             }
-            if (contador == -1){
-                contador = 10;
-            }
         }    
-        System.out.println("Hay numeros positivos");
+        suma = suma + notas;
+        
+        notamedia = suma / notas;
+        System.out.println("Hay "+excelentes+" excelentes y la nota media es: "+notamedia);
         scanner.close();
     }
 }
