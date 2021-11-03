@@ -18,10 +18,10 @@ public class Entrada {
                 hayEntero = true;
             }else{
             System.out.println(mensaje);
-            scanner.close();
-            scanner.nextLine();
             }
+            scanner.nextLine();
         }
+        scanner.close();
         return numero;
     }
 }
