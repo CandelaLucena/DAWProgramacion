@@ -7,7 +7,7 @@ public class E02 {
         Scanner scanner = new Scanner (System.in);
         double radio = 0, calculoPerimetro = 0, calculoArea = 0;
         System.out.println("Ingrese el radio: ");
-        radio = scanner.nextInt();
+        radio = scanner.nextDouble();
         scanner.close();
 
         calculoPerimetro = 2 * Math.PI * radio;
