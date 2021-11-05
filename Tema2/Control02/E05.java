@@ -8,7 +8,6 @@ public class E05 {
         int numero = 0;
         System.out.println("Ingrese numero: ");
         numero = scanner.nextInt();
-
-        
+        scanner.close();
     }
 }
