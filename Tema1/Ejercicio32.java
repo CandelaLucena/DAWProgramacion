@@ -11,7 +11,7 @@ public class Ejercicio32 {
             Array[i] = scanner.nextInt();
         }
         scanner.close();
-        for (int i = Array.length-1; i < Array.length; i--) {
+        for (int i = Array.length-1; i >= 0; i--) {
             System.out.println(Array[i]);
         }
     }
