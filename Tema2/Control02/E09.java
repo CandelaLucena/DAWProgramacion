@@ -12,7 +12,7 @@ public class E09 {
         segundaNota = scanner.nextDouble();
         System.out.println("Ingrese nota laboratorio: ");
         notaLaboratorio = scanner.nextDouble();
-
+        scanner.close();
         terceraNota = (60 - (notaLaboratorio * 0.3 * 3)) / (0.7 * primeraNota * segundaNota);
 
         System.out.println("Necesita nota "+terceraNota+" en el certamen 3");
