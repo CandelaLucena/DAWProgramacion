@@ -1,3 +1,4 @@
+package Tema1;
 import java.util.Scanner;
 public class Ejercicio28Mediocre{
     public static void main(String[] args) {

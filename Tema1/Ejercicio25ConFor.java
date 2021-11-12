@@ -1,3 +1,5 @@
+
+package Tema1;
 import java.util.Scanner;
 public class Ejercicio25ConFor{
     public static void main(String[] args) {
