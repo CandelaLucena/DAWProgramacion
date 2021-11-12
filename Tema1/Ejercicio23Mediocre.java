@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class Ejercicio23Mediocre {
     public static void main(String[] args) {
