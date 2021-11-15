@@ -1,5 +1,3 @@
-package Tema2;
-
 public class EsDivisible {
     
     public static boolean esDivisible(int n, int m){

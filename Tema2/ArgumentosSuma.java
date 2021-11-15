@@ -1,4 +1,3 @@
-package Tema2;
 public class ArgumentosSuma{
     public static void main(String [] args) {
         int suma = 0;

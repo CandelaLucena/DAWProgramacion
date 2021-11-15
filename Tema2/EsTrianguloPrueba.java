@@ -1,5 +1,3 @@
-package Tema2;
-
 public class EsTrianguloPrueba {
     public static void main(String[] args) {
         

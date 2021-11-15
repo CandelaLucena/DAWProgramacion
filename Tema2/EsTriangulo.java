@@ -1,5 +1,3 @@
-package Tema2;
-
 public class EsTriangulo {
     
     public static boolean esTriangulo(int palo1, int palo2, int palo3){

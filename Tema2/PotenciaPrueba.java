@@ -1,5 +1,3 @@
-package Tema2;
-
 public class PotenciaPrueba {
     public static void main(String[] args) {
         double prueba1 = Potencia.potencia(3.3,5);

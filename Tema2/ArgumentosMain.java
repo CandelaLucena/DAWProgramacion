@@ -1,4 +1,3 @@
-package Tema2;
 public class ArgumentosMain{
     public static void main(String [] args) {
         System.out.println("========================");

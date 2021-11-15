@@ -1,5 +1,3 @@
-package Tema2;
-
 public class EsDivisiblePrueba {
     public static void main(String[] args) {
         boolean prueba1 = EsDivisible.esDivisible(4,2);

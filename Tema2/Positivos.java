@@ -1,5 +1,3 @@
-package Tema2;
-
 public class Positivos {
     public static int positivos(int [] numeros){
         int resultado = 0;
