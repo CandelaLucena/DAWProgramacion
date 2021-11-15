@@ -11,7 +11,7 @@ public class E05 {
         System.out.println(numero.charAt(2) +
         "" + numero.charAt(1) + 
         "" + numero.charAt(0));
-
+        lector.close();
         //345
 
         /*
