@@ -31,4 +31,7 @@ public class LetraDni {
         lector.close();
         
     }
+    private static char[] eop(int i) {
+        return null;
+    }
 }
