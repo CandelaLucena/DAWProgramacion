@@ -1,3 +1,5 @@
+package Ejercicios;
+
 public class EsTriangulo {
 
     public static boolean esTriangulo(int a, int b, int c){

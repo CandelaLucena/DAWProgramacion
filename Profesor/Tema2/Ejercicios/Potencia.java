@@ -1,3 +1,5 @@
+package Ejercicios;
+
 public class Potencia {
 
     public static double potencia(double x, int n) {

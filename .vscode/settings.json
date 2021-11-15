@@ -2,6 +2,8 @@
     "java.project.sourcePaths": [
         "Tema2/Control02",
         "Tema2",
-        "Tema1"
+        "Tema1",
+        "Profesor/Controles",
+        "Profesor/Tema2"
     ]
 }

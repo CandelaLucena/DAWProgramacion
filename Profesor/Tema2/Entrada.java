@@ -20,7 +20,7 @@ public class Entrada {
             lector.nextLine();
         }
 
-        //lector.close();
+        lector.close();
 
         return resultado;
     }

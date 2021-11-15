@@ -1,3 +1,5 @@
+package Ejercicios;
+
 public class Positivos {
 
     public static int positivos(int [] numeros) {

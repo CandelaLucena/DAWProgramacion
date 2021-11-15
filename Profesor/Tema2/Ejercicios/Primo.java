@@ -1,3 +1,5 @@
+package Ejercicios;
+
 public class Primo {
 
     public static boolean esPrimo(int numero) {
