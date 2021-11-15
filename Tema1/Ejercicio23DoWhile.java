@@ -1,4 +1,4 @@
-package Tema1;
+
 import java.util.Scanner;
 public class Ejercicio23DoWhile {
     public static void main(String[] args) {

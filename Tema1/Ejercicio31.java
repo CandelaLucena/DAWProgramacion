@@ -1,4 +1,4 @@
-package Tema1;
+
 public class Ejercicio31 {
     public static void main(String[] args) {
         int[] Array;

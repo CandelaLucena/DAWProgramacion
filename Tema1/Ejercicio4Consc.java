@@ -1,4 +1,4 @@
-package Tema1;
+
 import java.util.Scanner;
 public class Ejercicio4Consc {
     public static void main(String[] args) {
