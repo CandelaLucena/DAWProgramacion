@@ -1,5 +1,3 @@
-package Tema2.Control02;
-
 import java.util.Scanner;
 
 public class E02 {
