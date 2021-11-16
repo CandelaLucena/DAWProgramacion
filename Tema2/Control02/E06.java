@@ -1,3 +1,5 @@
+package Control02;
+
 import java.util.Scanner;
 
 public class E06 {
