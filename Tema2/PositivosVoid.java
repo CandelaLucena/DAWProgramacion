@@ -7,10 +7,15 @@ public class PositivosVoid {
 
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = scanner.nextDouble();
-            if(numeros[i]> 0){
-                System.out.println(numeros[i]+" es positivo");
+        }
+
+        scanner.close();
+        
+        for (int j = 0; j < numeros.length; j++) {
+            if(numeros[j]> 0){
+                System.out.println(numeros[j]+" es positivo");
             }
         }
-        scanner.close();
+        
     }
 }
