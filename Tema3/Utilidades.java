@@ -37,6 +37,7 @@ public class Utilidades {
 			array[i] = aleatorio;
 		}
 	}
+
 	public static String[] dividirEnPalabras(String cadena){
     		// Quitar espacios en blanco al principio y al final
     		cadena=cadena.trim();
@@ -45,6 +46,7 @@ public class Utilidades {
     		// Dividir la cadena en partes por el carácter espacio (devuelve un array con cada una de las partes)
     		return cadena.split(" ");
 	}
+	
 	public static void rellenaMatriz(int[][] matriz, int min, int max){
 		// Producir nuevo int aleatorio entre 0 y (max-1)
 		
