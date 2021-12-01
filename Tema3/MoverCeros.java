@@ -9,9 +9,9 @@ public class MoverCeros {
     }
 
     public static void moverceros(int[]array1){
-        for (int j = 0; j < array1.length; j++) {
+        for (int j = array1.length; j < 0; j--) {
             if (array1[j]==0){
-                array1[j]=array1[j+1];
+                array1[j]=array1[j-1];
             }
         }
     }
