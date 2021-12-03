@@ -21,15 +21,15 @@ public class Calculadora {
             resultado = operando1 + operando2;
             System.out.print(operando1+" + "+operando2+" = "+resultado);
         }
-        if(operador == "-"){
+        else if(operador == "-"){
             resultado = operando1 - operando2;
             System.out.print(operando1+" - "+operando2+" = "+resultado);
         }
-        if(operador == "/"){
+        else if(operador == "/"){
             resultado = operando1 / operando2;
             System.out.print(operando1+" / "+operando2+" = "+resultado);
         }
-        if(operador == "**"){
+        else if(operador == "**"){
             resultado = operando1 * operando2;
             System.out.print(operando1+" * "+operando2+" = "+resultado);
         }

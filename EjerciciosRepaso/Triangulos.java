@@ -12,7 +12,8 @@ public class Triangulos {
         b = scanner.nextDouble();
         System.out.print("Ingrese c:");
         c = scanner.nextDouble();
-
+        scanner.close();
+        
         if(!(a+b<c)&&!(a+c<b)&&!(b+c<a)){
             if(a==b&&a==c&&b==c){
                 System.out.print("El triangulo es equilatero.");
