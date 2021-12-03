@@ -13,9 +13,8 @@ public class AñosBisiestos {
             if(anno%100==0){
                 if(anno%400==0){
                     System.out.print(anno+" es bisiesto");
-                }else{
-                System.out.print(anno+" no es bisiesto");
                 }
+                System.out.print(anno+" no es bisiesto");
             }else{
                 System.out.print(anno+" es bisiesto");
             }
