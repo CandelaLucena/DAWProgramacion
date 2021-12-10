@@ -7,7 +7,7 @@ public class Ordenamiento3 {
         int[] numeros = new int[4];
         int mayor;
         for (int i = 0; i < numeros.length; i++) {
-            System.out.print("Ingrese un número:");
+            System.out.print("Ingrese un número: ");
             numeros[i] = scanner.nextInt();
         }
 
