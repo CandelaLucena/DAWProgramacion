@@ -1,4 +1,4 @@
-public class ValoresACero {
+public class ValoresACero1 {
     public static void main(String[] args) {
         int[][] matriz = new int[10][10];
         int numFilasCero = 0;

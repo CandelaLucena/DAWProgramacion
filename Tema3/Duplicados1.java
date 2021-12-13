@@ -1,4 +1,4 @@
-public class Duplicados {
+public class Duplicados1 {
     public static void main(String[] args) {
         int[] array = {1, 2, 2, 3, 5, 5, 8, 9, 10, 2};
         duplicados(array);

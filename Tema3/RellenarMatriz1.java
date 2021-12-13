@@ -1,4 +1,4 @@
-public class RellenarMatriz {
+public class RellenarMatriz1 {
     public static void main(String[] args) {
         int [][] miMatriz = new int [10][10];
         Utilidades.rellenaMatriz(miMatriz,0,1);
