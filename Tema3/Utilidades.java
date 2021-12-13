@@ -58,7 +58,7 @@ public class Utilidades {
 			}
 		}
 	}
-
+	
 	public static void 	mostrarMatriz(int matriz[][]) {
 		int i,j; 
 		int filas = matriz.length;
