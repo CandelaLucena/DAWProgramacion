@@ -6,6 +6,8 @@ public class Multiplos {
         int numero = 0;
         System.out.print("Ingrese un numero: ");
         numero = scanner.nextInt();
+        scanner.close();
+        
         for (int i = 0; i <= 10; i++) {
             System.out.println(numero+" x "+i+" = "+numero*i);
         }
