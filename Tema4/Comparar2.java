@@ -1,6 +1,5 @@
 public class Comparar2 {
     public static void main(String[] args) {
-        
         String cadena1 = "CadEnAuno";
         String cadena2 = "CAdenaDos";
     
