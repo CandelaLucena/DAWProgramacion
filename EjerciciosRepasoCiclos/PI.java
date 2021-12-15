@@ -16,7 +16,7 @@ public class PI {
 
         while (contador==numero) {
             if (!(contador%2==0)){
-                resultado = resultado + 1/contador;
+                resultado = resultado + (1/contador);
             }
             contador++;
         }
