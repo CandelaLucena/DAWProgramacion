@@ -6,6 +6,7 @@ public class PI {
         Scanner scanner = new Scanner(System.in);
         int numero = 0;
         int contador = 0;
+        boolean comprobador = true;
 
         double PI = 0;
         double resultado = 0;
@@ -15,8 +16,12 @@ public class PI {
         scanner.close();
 
         while (contador==numero) {
-            if (!(contador%2==0)){
-                resultado = resultado + (1/contador);
+            if (!(contador%2==0)&&(comprobador = true)){
+                resultado = resultado + (1.0/contador);
+                comprobador = false;
+            }else if(!(contador%2==0)&&(comprobador = false)){
+                resultado = resultado - (1.0/contador);
+                comprobador = true;
             }
             contador++;
         }
