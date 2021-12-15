@@ -8,6 +8,7 @@ public class Comparar2 {
         System.out.println(comparacion1);
         int comparacion2 = cadena2.compareToIgnoreCase(cadena1);
         System.out.println(comparacion2);
+        
         if(comparacion1>comparacion2){
             System.out.println("Cadena 1 es mayor que cadena 2");
         }else{
