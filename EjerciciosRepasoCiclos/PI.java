@@ -28,5 +28,6 @@ public class PI {
 
         PI = 4 * (1 - resultado);
         System.out.println(PI);
+        System.out.println(comprobador);
     }
 }
