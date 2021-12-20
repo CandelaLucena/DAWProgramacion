@@ -28,6 +28,7 @@ class CalculadoraJulio{
             case "-":
                 resultado = op1 - op2;
                 break;
+            case "*":
             case "x":
             case "X":
                 resultado = op1 * op2;
@@ -63,6 +64,7 @@ class CalculadoraJulio{
             case "+":
             case "-":
             case "x":
+            case "*":
             case "X":
             case "/":
                 return true;
