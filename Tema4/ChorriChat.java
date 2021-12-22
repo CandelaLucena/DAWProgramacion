@@ -30,6 +30,7 @@ public class ChorriChat {
         boolean saludo = true;
         boolean despedida = true;
         double resultado;
+
         resultado = Math.random() * 10;
 
         System.out.println("Inicio de Chorri");
@@ -38,11 +39,11 @@ public class ChorriChat {
             if(cadena1.contains(cadena2)||cadena1.contains(cadena3)||cadena1.contains(cadena4)||cadena1.contains(cadena5)){
                 saludo = false;
             }else{
-                System.out.println("Eres una persona maleducada");
+                System.out.println("Chorri: Eres una persona maleducada");
             }
         }
         
-        System.out.println("Hola, soy Chorri tu asistente");
+        System.out.println("Chorri: Hola, soy Chorri tu asistente");
 
         while(despedida == true){
             cadena6 = scanner.nextLine().toLowerCase();
@@ -50,17 +51,17 @@ public class ChorriChat {
                 despedida = false;
             }else{
                 if(resultado >= 0 && resultado <= 3){
-                    System.out.println("Mmm, es un tema interesante");
+                    System.out.println("Chorri: Mmm, es un tema interesante");
                 }else if(resultado > 3 && resultado <= 6){
-                    System.out.println("No he entendido bien lo que dices");
+                    System.out.println("Chorri: No he entendido bien lo que dices");
                 }else if(resultado > 6 && resultado <= 10){
-                    System.out.println("Nooo hablooo tu idioma" );
+                    System.out.println("Chorri: Nooo hablooo tu idioma" );
                 }
                 resultado = Math.random() * 10;
             }
         }
 
-        System.out.println("Ha sido un placer, bebe");
+        System.out.println("Chorri: Ha sido un placer, bebe");
 
         scanner.close();
         
