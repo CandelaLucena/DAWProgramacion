@@ -11,7 +11,6 @@ public class Silla {
     private String material;
 
     //Autogenerados contructor
-    
     public Silla(String color, int numPatas, boolean tieneRespaldo, int comodidad, Point ubicacion, String material) {
         this.color = color;
         this.numPatas = numPatas;
@@ -25,32 +24,6 @@ public class Silla {
         //Generar sillas aleatorias
     }
 
-    //Autogenerados set get
-    public boolean isTieneRespaldo() {
-        return tieneRespaldo;
-    }
-
-    public void setTieneRespaldo(boolean tieneRespaldo) {
-        this.tieneRespaldo = tieneRespaldo;
-    }
-
-    public Point getUbicacion() {
-        return ubicacion;
-    }
-
-    public void setUbicacion(Point ubicacion) {
-        this.ubicacion = ubicacion;
-    }
-
-    public String getMaterial() {
-        return material;
-    }
-
-    public void setMaterial(String material) {
-        this.material = material;
-    }
-
-    
     //Getters, permiten obtener. Se utiliza para tener una capa de protección
     public int getComodidad(){
         return comodidad;
@@ -81,5 +54,30 @@ public class Silla {
         }else{
             numPatas = nuevoNumPatas;
         }
+    }
+
+    //Autogenerados set get
+    public boolean isTieneRespaldo() {
+        return tieneRespaldo;
+    }
+
+    public void setTieneRespaldo(boolean tieneRespaldo) {
+        this.tieneRespaldo = tieneRespaldo;
+    }
+
+    public Point getUbicacion() {
+        return ubicacion;
+    }
+
+    public void setUbicacion(Point ubicacion) {
+        this.ubicacion = ubicacion;
+    }
+
+    public String getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
     }
 }
