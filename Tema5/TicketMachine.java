@@ -77,7 +77,7 @@ public class TicketMachine{
     }
 
     public void setPrice(int cost){
-        cost = price;
+        this.price = cost;
     }
 
     public void prompt(){
@@ -88,7 +88,10 @@ public class TicketMachine{
         System.out.println("The price of the ticket is "+ price +" cents.");
     }
 
-    public TicketMachine() {
+    public TicketMachine(){
+        price = 0;
+        balance = 0;
+        total = 0;
     }
 
     public void empty(){
