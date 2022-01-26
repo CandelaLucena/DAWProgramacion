@@ -96,9 +96,23 @@ public class TicketMachine2{
     //Ejercicios
 
     public int emptyMachine(){
+        int muestraTotal;
+        muestraTotal = total;
         total = 0;
-        return total;
+        return muestraTotal;
     }
 
-    
+    public void printTicket2(){
+        int amountToPay = price - balance;
+        if(amountToPay <= 0){
+            System.out.println("##################");
+            System.out.println("# The BlueJ Line");
+            System.out.println("# Ticket");
+            System.out.println("# " + price + " cents.");
+            System.out.println("##################");
+            System.out.println();
+        }else{
+            System.out.println("Necesitas"+amountToPay);
+        }
+    }
 }
