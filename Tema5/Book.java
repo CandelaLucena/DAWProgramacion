@@ -11,9 +11,9 @@ class Book{
     private String author;
     private String title;
     private int pages;
-    private String refNumber;
+    private String refNumber = "";
     private int borrowed;
-    private boolean courseText;
+    private final boolean courseText;
     /**
      * Set the author and title fields when this object
      * is constructed.
@@ -22,7 +22,6 @@ class Book{
         author = bookAuthor;
         title = bookTitle;
         pages = bookPages;
-        refNumber = "";
         borrowed = bookBorrowed;
         courseText = bookCourseText;
     }
@@ -51,14 +50,14 @@ class Book{
     }
 
     public void setRefNumber(String ref){
-        if((ref.length()) == 3){
+        if((ref.length()) > 3){
             refNumber = ref;
         }else{
             System.out.println("Error, no se modificó el campo.");
         }
     }
 
-    public void setBorrowed(){
+    public void borrow(){
         borrowed++;
     }
 
@@ -76,6 +75,6 @@ class Book{
                             "Numero de paginas: "+pages+
                             "Referencia: "+refNumber+
                             "Numero de veces prestado: "+borrowed+
-                            "Texto de curso:"+courseText);
+                            "Texto de curso: "+courseText);
     }
 }
