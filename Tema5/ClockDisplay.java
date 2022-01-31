@@ -50,7 +50,7 @@ public class ClockDisplay
      */
     public void timeTick()
     {
-        minutes.increment();
+        seconds.increment();
         if(minutes.getValue() == 0) {  // it just rolled over!
             hours.increment();
         }else if(seconds.getValue()==0){
