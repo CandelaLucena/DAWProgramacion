@@ -6,5 +6,10 @@ public class MailTest {
         System.out.println(server.howManyMailItems("Candela"));
         cliente.sendMailItem("Candela", "Hola", "Buenos dias");
         System.out.println(server.howManyMailItems("Candela"));
+
+        cliente.sendMailItem("Candela;Pepe", "Hola", "Buenos dias");
+        System.out.println(server.howManyMailItems("Pepe"));
+
+
     }
 }
