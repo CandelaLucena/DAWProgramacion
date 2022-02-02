@@ -52,7 +52,23 @@ public class MailClient
      */
     public void sendMailItem(String to, String message, String asunto)
     {
-        MailItem item = new MailItem(user, to, message, asunto);
-        server.post(item);
+        // to puede ser "Julio;Pepe;..." o "Pepe"
+        if(to.contains(";")){
+            String[] arrayTo = to.split(";");
+            for (int i = 0; i < arrayTo.length; i++) {
+                MailItem item = new MailItem(user, arrayTo[i], message, asunto);
+                server.post(item);
+            }
+
+        }else{
+            MailItem item = new MailItem(user, to, message, asunto);
+            server.post(item);
+        }
+        
+    }
+
+    public void forwardLastMailItem(String forwardTo){
+        //MailItem item = new MailItem(user, to, message, asunto);
+        //    server.post(item);
     }
 }
