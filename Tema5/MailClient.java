@@ -74,8 +74,9 @@ public class MailClient
             System.out.println("No mail.");
         }
         else {
-            //item = MailItem(user, to, message, asunto);
-            //server.post(item);
+            item.print();
+            MailItem nuevoMail = new MailItem(item.getFrom(), forwardTo, item.getAsunto(), item.getMessage());
+            server.post(nuevoMail);
         }
     }
 }
