@@ -1,28 +1,22 @@
 En vuestro repositorio crear una carpeta Control03.
 
-1. Crea una clase teclado con los siguientes atributos privados: color, numero de teclas, conectividad (indica si es inalambrico o va por cable),
-idioma (representado por dos letras que marcan el idioma del pais), formato (puede tomar los valores compacto o extendido).
+1. Crea una clase teclado con los siguientes atributos privados: color, numero de teclas, 
+conectividad (indica si es inalambrico o va por cable),idioma (representado por dos letras
+que marcan el idioma del pais), formato (puede tomar los valores compacto o extendido).
 
-2. Crea los getters y setters apropiados teniendo en cuenta que una vez creado un teclado no se pueden modificar sus atributos, pero si se pueden leer.
+2. Crea los getters y setters apropiados teniendo en cuenta que una vez creado un teclado
+ no se pueden modificar sus atributos, pero si se pueden leer.
 
 3. Crea un contador que cuentes cuantos teclados se han ido añadiendo/creado en el sistema.
 
-4. Crea una clase ordenador con los siguientes atributos privados: formato (valores sobremesa o portatil), color y teclado (objeto de la clase anterior)
+4. Crea una clase ordenador con los siguientes atributos privados: formato (valores sobremesa
+ o portatil), color y teclado (objeto de la clase anterior)
 
-5. Crea los getters y setter apropiados teniendo en cuenta que solo el teclado puede ser modificado despues de crear el ordenador.
+5. Crea los getters y setter apropiados teniendo en cuenta que solo el teclado puede ser 
+modificado despues de crear el ordenador.
 
-6. Para las dos clases hay que crear dos contructores, uno sin parametros con valores por defecto y otro especificado.
+6. Para las dos clases hay que crear dos contructores, uno sin parametros con valores por 
+defecto y otro especificado.
 
-7. En la clase ordenador crear un metodo conectar y que recibe como parametro otro ordenador de manera que un ordenador puede estar conectado a otro.
-
-
-Teclado
--teclas
--idioma
--color
--formato
--conectividad
-
-Ordenador
-- teclado
-- formato
+7. En la clase ordenador crear un metodo conectar y que recibe como parametro otro ordenador
+ de manera que un ordenador puede estar conectado a otro.
