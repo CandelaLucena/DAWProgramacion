@@ -85,10 +85,20 @@ public class MusicOrganizer
 
     public void listAllFiles(){
         for (String filename : files) {
-            System.out.println(files);
+            System.out.println(filename);
         }
     }
 
     public void listMatching(String match){
+        int contador = 0;
+        for (String filename : files) {
+            if(filename.contains(match)){
+                System.out.println();
+                contador++;
+            }
+        }
+        if(contador > 0){
+
+        }
     }
 }
