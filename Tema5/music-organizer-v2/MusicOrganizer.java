@@ -90,8 +90,5 @@ public class MusicOrganizer
     }
 
     public void listMatching(String match){
-        if(filename.equals(match)){
-            
-        }
     }
 }
