@@ -93,16 +93,19 @@ public class MusicOrganizer
         int contador = 0;
         for (String filename : files) {
             if(filename.contains(match)){
-                System.out.println();
+                System.out.println(filename);
                 contador++;
+            }else{
             }
         }
-        if(contador > 0){
-
+        if(contador == 0){
+            System.out.println("No se encuentra ninguna");
         }
     }
     
-    public void getMatching(String match){
-        
+    public ArrayList<String> getMatching(String match){
+        ArrayList<String> arrayList = new ArrayList<String>();
+        arrayList.add(match);
+        return arrayList;
     }
 }
