@@ -4,5 +4,9 @@
         "Tema1",
         "Control02",
         "Tema5/music-organizer-v2"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Tema5/lib/jl1.0.1.jar"
     ]
 }
