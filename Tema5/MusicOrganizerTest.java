@@ -17,7 +17,5 @@ public class MusicOrganizerTest {
 
         music.addFile("musica3");
         music.addFile("musica4");
-
-        music.checkIndex(1);
     }
 }
