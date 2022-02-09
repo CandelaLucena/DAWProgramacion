@@ -1,7 +1,8 @@
 public class Ordenador {
-    private String color;                                                //indica el color {"rojo", "amarillo", "azul", "verde"};  
-    private String formato;                   //indica si es sobremesa o portatil {"sobremesa", "portatil"};  
-    private Teclado teclado;                                                //indica el teclado
+    private String color;                        //indica el color {"rojo", "amarillo", "azul", "verde"};  
+    private String formato;                     //indica si es sobremesa o portatil {"sobremesa", "portatil"};  
+    private Teclado teclado;                   //indica el teclado
+    private Ordenador pcConectado = null;
     
     public Ordenador() {
     }
@@ -29,6 +30,10 @@ public class Ordenador {
     }
 
     public void conectar(Ordenador ordenador){
-        
+        if (pcConectado == null){
+            
+        }else{
+
+        }
     }
 }
