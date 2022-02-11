@@ -1,0 +1,924 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AcabaCon",
+            "request": "launch",
+            "mainClass": "AcabaCon",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArgumentosMain",
+            "request": "launch",
+            "mainClass": "ArgumentosMain",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArgumentosSuma",
+            "request": "launch",
+            "mainClass": "ArgumentosSuma",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch AñosBisiestos",
+            "request": "launch",
+            "mainClass": "AñosBisiestos",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch BookTest",
+            "request": "launch",
+            "mainClass": "BookTest",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculadora",
+            "request": "launch",
+            "mainClass": "Calculadora",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalculadoraJulio",
+            "request": "launch",
+            "mainClass": "CalculadoraJulio",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChorriChat",
+            "request": "launch",
+            "mainClass": "ChorriChat",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClockDisplayTest",
+            "request": "launch",
+            "mainClass": "ClockDisplayTest",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Comparar1",
+            "request": "launch",
+            "mainClass": "Comparar1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Comparar2",
+            "request": "launch",
+            "mainClass": "Comparar2",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Comunes1",
+            "request": "launch",
+            "mainClass": "Comunes1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Concatenar",
+            "request": "launch",
+            "mainClass": "Concatenar",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Contiene",
+            "request": "launch",
+            "mainClass": "Contiene",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Control01",
+            "request": "launch",
+            "mainClass": "Control01",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch DescendentePrueba",
+            "request": "launch",
+            "mainClass": "DescendentePrueba",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeterminarPar",
+            "request": "launch",
+            "mainClass": "DeterminarPar",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch DibujosdeAsteriscos1",
+            "request": "launch",
+            "mainClass": "DibujosdeAsteriscos1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch DibujosdeAsteriscos2",
+            "request": "launch",
+            "mainClass": "DibujosdeAsteriscos2",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch DibujosdeAsteriscos3",
+            "request": "launch",
+            "mainClass": "DibujosdeAsteriscos3",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Digitos",
+            "request": "launch",
+            "mainClass": "Digitos",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Digitos2",
+            "request": "launch",
+            "mainClass": "Digitos2",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Division",
+            "request": "launch",
+            "mainClass": "Division",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Divisores",
+            "request": "launch",
+            "mainClass": "Divisores",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Duplicados1",
+            "request": "launch",
+            "mainClass": "Duplicados1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch E01",
+            "request": "launch",
+            "mainClass": "E01",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch E02",
+            "request": "launch",
+            "mainClass": "E02",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch E04",
+            "request": "launch",
+            "mainClass": "E04",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch E05",
+            "request": "launch",
+            "mainClass": "E05",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch E06",
+            "request": "launch",
+            "mainClass": "E06",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch E07",
+            "request": "launch",
+            "mainClass": "E07",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch E08",
+            "request": "launch",
+            "mainClass": "E08",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch E09",
+            "request": "launch",
+            "mainClass": "E09",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch E10",
+            "request": "launch",
+            "mainClass": "E10",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Edad",
+            "request": "launch",
+            "mainClass": "Edad",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio1",
+            "request": "launch",
+            "mainClass": "Ejercicio1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio10",
+            "request": "launch",
+            "mainClass": "Ejercicio10",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio11",
+            "request": "launch",
+            "mainClass": "Ejercicio11",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio12",
+            "request": "launch",
+            "mainClass": "Ejercicio12",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio13",
+            "request": "launch",
+            "mainClass": "Ejercicio13",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio14",
+            "request": "launch",
+            "mainClass": "Ejercicio14",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio15",
+            "request": "launch",
+            "mainClass": "Ejercicio15",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio16",
+            "request": "launch",
+            "mainClass": "Ejercicio16",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio17",
+            "request": "launch",
+            "mainClass": "Ejercicio17",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio18",
+            "request": "launch",
+            "mainClass": "Ejercicio18",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio19",
+            "request": "launch",
+            "mainClass": "Ejercicio19",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio2",
+            "request": "launch",
+            "mainClass": "Ejercicio2",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio20",
+            "request": "launch",
+            "mainClass": "Ejercicio20",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio20ConElseif",
+            "request": "launch",
+            "mainClass": "Ejercicio20ConElseif",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio21",
+            "request": "launch",
+            "mainClass": "Ejercicio21",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio22",
+            "request": "launch",
+            "mainClass": "Ejercicio22",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio23",
+            "request": "launch",
+            "mainClass": "Ejercicio23",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio23DoWhile",
+            "request": "launch",
+            "mainClass": "Ejercicio23DoWhile",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio23Mediocre",
+            "request": "launch",
+            "mainClass": "Ejercicio23Mediocre",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio24",
+            "request": "launch",
+            "mainClass": "Ejercicio24",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio25",
+            "request": "launch",
+            "mainClass": "Ejercicio25",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio25ConFor",
+            "request": "launch",
+            "mainClass": "Ejercicio25ConFor",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio26",
+            "request": "launch",
+            "mainClass": "Ejercicio26",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio27Mal",
+            "request": "launch",
+            "mainClass": "Ejercicio27Mal",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio28",
+            "request": "launch",
+            "mainClass": "Ejercicio28",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio28Mediocre",
+            "request": "launch",
+            "mainClass": "Ejercicio28Mediocre",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio29",
+            "request": "launch",
+            "mainClass": "Ejercicio29",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio3",
+            "request": "launch",
+            "mainClass": "Ejercicio3",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio30",
+            "request": "launch",
+            "mainClass": "Ejercicio30",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio31",
+            "request": "launch",
+            "mainClass": "Ejercicio31",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio31DeclaracionFacil",
+            "request": "launch",
+            "mainClass": "Ejercicio31DeclaracionFacil",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio32",
+            "request": "launch",
+            "mainClass": "Ejercicio32",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio35",
+            "request": "launch",
+            "mainClass": "Ejercicio35",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio36",
+            "request": "launch",
+            "mainClass": "Ejercicio36",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio37",
+            "request": "launch",
+            "mainClass": "Ejercicio37",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio38",
+            "request": "launch",
+            "mainClass": "Ejercicio38",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio38SinArray",
+            "request": "launch",
+            "mainClass": "Ejercicio38SinArray",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio39",
+            "request": "launch",
+            "mainClass": "Ejercicio39",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio4",
+            "request": "launch",
+            "mainClass": "Ejercicio4",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio4Consc",
+            "request": "launch",
+            "mainClass": "Ejercicio4Consc",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio5",
+            "request": "launch",
+            "mainClass": "Ejercicio5",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio6",
+            "request": "launch",
+            "mainClass": "Ejercicio6",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio7",
+            "request": "launch",
+            "mainClass": "Ejercicio7",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio8",
+            "request": "launch",
+            "mainClass": "Ejercicio8",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio9",
+            "request": "launch",
+            "mainClass": "Ejercicio9",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Eliminar1",
+            "request": "launch",
+            "mainClass": "Eliminar1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch EntradaPrueba",
+            "request": "launch",
+            "mainClass": "EntradaPrueba",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch EsDivisiblePrueba",
+            "request": "launch",
+            "mainClass": "EsDivisiblePrueba",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch EsTrianguloPrueba",
+            "request": "launch",
+            "mainClass": "EsTrianguloPrueba",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeaterTest",
+            "request": "launch",
+            "mainClass": "HeaterTest",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch HolaMundoJava",
+            "request": "launch",
+            "mainClass": "HolaMundoJava",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch HundirLaFlota1",
+            "request": "launch",
+            "mainClass": "HundirLaFlota1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Iguales1",
+            "request": "launch",
+            "mainClass": "Iguales1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch IndicedeMasaCorporal",
+            "request": "launch",
+            "mainClass": "IndicedeMasaCorporal",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Invertida",
+            "request": "launch",
+            "mainClass": "Invertida",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch LetraONumero",
+            "request": "launch",
+            "mainClass": "LetraONumero",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Longitud",
+            "request": "launch",
+            "mainClass": "Longitud",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MailTest",
+            "request": "launch",
+            "mainClass": "MailTest",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatesPruebas",
+            "request": "launch",
+            "mainClass": "MatesPruebas",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MayorDeTresPrueba",
+            "request": "launch",
+            "mainClass": "MayorDeTresPrueba",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MayorPrueva",
+            "request": "launch",
+            "mainClass": "MayorPrueva",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoverCeros1",
+            "request": "launch",
+            "mainClass": "MoverCeros1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multiplicacion",
+            "request": "launch",
+            "mainClass": "Multiplicacion",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multiplos",
+            "request": "launch",
+            "mainClass": "Multiplos",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MusicOrganizer2Test",
+            "request": "launch",
+            "mainClass": "MusicOrganizer2Test",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MusicOrganizerTest",
+            "request": "launch",
+            "mainClass": "MusicOrganizerTest",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch NotasPrueba",
+            "request": "launch",
+            "mainClass": "NotasPrueba",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch OrdenadorTecladoTest",
+            "request": "launch",
+            "mainClass": "OrdenadorTecladoTest",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ordenamiento",
+            "request": "launch",
+            "mainClass": "Ordenamiento",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ordenamiento2",
+            "request": "launch",
+            "mainClass": "Ordenamiento2",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ordenamiento3",
+            "request": "launch",
+            "mainClass": "Ordenamiento3",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PI",
+            "request": "launch",
+            "mainClass": "PI",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalabraMasLarga",
+            "request": "launch",
+            "mainClass": "PalabraMasLarga",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parentesis",
+            "request": "launch",
+            "mainClass": "Parentesis",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ParesImpares1",
+            "request": "launch",
+            "mainClass": "ParesImpares1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PosicióndeunaCadena1",
+            "request": "launch",
+            "mainClass": "PosicióndeunaCadena1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PosicióndeunaCadena2",
+            "request": "launch",
+            "mainClass": "PosicióndeunaCadena2",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Positivos",
+            "request": "launch",
+            "mainClass": "Positivos",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PositivosVoidPrueba",
+            "request": "launch",
+            "mainClass": "PositivosVoidPrueba",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PotenciaPrueba",
+            "request": "launch",
+            "mainClass": "PotenciaPrueba",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PotenciasdeDos",
+            "request": "launch",
+            "mainClass": "PotenciasdeDos",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reemplazar",
+            "request": "launch",
+            "mainClass": "Reemplazar",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch RellenarMatriz1",
+            "request": "launch",
+            "mainClass": "RellenarMatriz1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecuenciadeCollatz",
+            "request": "launch",
+            "mainClass": "SecuenciadeCollatz",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SetDeTenis",
+            "request": "launch",
+            "mainClass": "SetDeTenis",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SillaTest",
+            "request": "launch",
+            "mainClass": "SillaTest",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subcadenas",
+            "request": "launch",
+            "mainClass": "Subcadenas",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumaEntreNumeros",
+            "request": "launch",
+            "mainClass": "SumaEntreNumeros",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumaIgual1",
+            "request": "launch",
+            "mainClass": "SumaIgual1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TabladeMultiplicar",
+            "request": "launch",
+            "mainClass": "TabladeMultiplicar",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tablero1",
+            "request": "launch",
+            "mainClass": "Tablero1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TicketMachineTest",
+            "request": "launch",
+            "mainClass": "TicketMachineTest",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Triangulos",
+            "request": "launch",
+            "mainClass": "Triangulos",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValoresACero1",
+            "request": "launch",
+            "mainClass": "ValoresACero1",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
+            "name": "Launch secuenciasdeCollatznumeros",
+            "request": "launch",
+            "mainClass": "secuenciasdeCollatznumeros",
+            "projectName": "DAWProgramacion_9d058cdd"
+        }
+    ]
+}

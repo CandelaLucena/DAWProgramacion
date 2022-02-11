@@ -13,6 +13,16 @@ public class Track
     private String title;
     // Where the track is stored.
     private String filename;
+
+    private int playCount;
+
+    public void ceroPlayCount(){
+        playCount = 0;
+    }
+
+    public void increasePlayCount(){
+        playCount++;
+    }
     
     /**
      * Constructor for objects of class Track.

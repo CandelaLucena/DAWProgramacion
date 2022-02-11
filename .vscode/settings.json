@@ -1,6 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "Tema5/music-organizer-v2",
         "Tema4",
         "Tema3",
         "Tema2",
@@ -10,7 +9,7 @@
         "Control03",
         "Control02",
         "Control01",
-        "Tema5"
+        "Tema5/music-organizer-v5"
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
