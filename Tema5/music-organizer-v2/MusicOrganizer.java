@@ -91,21 +91,52 @@ public class MusicOrganizer
 
     public void listMatching(String match){
         int contador = 0;
-        for (String filename : files) {
-            if(filename.contains(match)){
-                System.out.println(filename);
-                contador++;
-            }else{
-            }
+
+        ArrayList<String> canciones = getMatching(match);
+
+        for (String filename : canciones) {
+            System.out.println(filename);
+            contador++;
         }
+
         if(contador == 0){
             System.out.println("No se encuentra ninguna");
         }
     }
+
+    public void playMatching(String match){
+        for (String filename : getMatching(match)) {
+            System.out.println(filename);
+            player.playSample(filename);
+        }
+    }
     
     public ArrayList<String> getMatching(String match){
+
         ArrayList<String> arrayList = new ArrayList<String>();
-        arrayList.add(match);
+
+        for (String filename : files) {
+            if(filename.contains(match)){
+                arrayList.add(filename);
+            }else{
+            }
+        }
         return arrayList;
+    }
+
+    public int findFirst(String searchString){
+        int indice = 0;
+        int resultado = -1;
+
+        while(indice < files.size()){
+            if(files.get(indice).contains(searchString)){
+                resultado = indice;
+                break;
+            }else{
+                indice++;
+            }
+        }
+        
+        return resultado;
     }
 }
