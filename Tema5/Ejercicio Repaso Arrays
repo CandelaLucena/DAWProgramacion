@@ -1,0 +1,2 @@
+Crea un programa en el que crees un array de 1000 enteros en las posiciones pares multiplos de 3, y las impares multiplos de 7, 
+empezando por el 3 y el 7. Imprimir las posiciones multiplo de 13.

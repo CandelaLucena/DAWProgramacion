@@ -6,15 +6,17 @@ import java.util.ArrayList;
  * @author David J. Barnes and Michael Kölling
  * @version 2016.02.29
  */
-public class MusicOrganizer
+public class MusicOrganizer70
 {
     // An ArrayList for storing the file names of music files.
     private ArrayList<String> files;
+
+    //private String [] files2 = new String [1000];
         
     /**
      * Create a MusicOrganizer
      */
-    public MusicOrganizer()
+    public MusicOrganizer70()
     {
         files = new ArrayList<>();
     }

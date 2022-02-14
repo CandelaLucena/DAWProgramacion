@@ -1,6 +1,6 @@
 public class MusicOrganizerTest {
     public static void main(String[] args) {
-        MusicOrganizer music = new MusicOrganizer();
+        MusicOrganizer70 music = new MusicOrganizer70();
 
         music.addFile("musica1");
         music.addFile("musica2");
