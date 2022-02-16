@@ -72,15 +72,6 @@ public class Track
     {
         return filename;
     }
-        
-    /**
-     * Return details of the track: artist, title and file name.
-     * @return The track's details.
-     */
-    public String getDetails()
-    {
-        return artist + ": " + title + "  (file: " + filename + ")";
-    }
     
     /**
      * Set details of the track.
@@ -95,4 +86,7 @@ public class Track
         this.filename = filename;
     }
     
+    public String toString(){
+        return artist + ": " + title + "  (file: " + filename + ")";
+    }
 }
