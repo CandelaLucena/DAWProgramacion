@@ -22,7 +22,7 @@ public class MusicOrganizer
     public MusicOrganizer()
     {
         tracks = new ArrayList<>();
-        player = new MusicPlayer();
+        player = new MusicPlayer();     
         reader = new TrackReader();
         readLibrary("../audio");
         System.out.println("Music library loaded. " + getNumberOfTracks() + " tracks.");
@@ -56,6 +56,7 @@ public class MusicOrganizer
         if(indexValid(index)) {
             Track track = tracks.get(index);
             player.startPlaying(track.getFilename());
+            track.increasePlayCount();
             System.out.println("Now playing: " + track.getArtist() + " - " + track.getTitle());
         }
     }

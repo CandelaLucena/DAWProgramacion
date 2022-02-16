@@ -13,7 +13,7 @@ public class Track
     private String title;
     // Where the track is stored.
     private String filename;
-
+    //Si no le pones static es de objeto
     private int playCount;
 
     public void ceroPlayCount(){
