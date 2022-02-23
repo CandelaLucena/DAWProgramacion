@@ -1,0 +1,12 @@
+Usuario
+id (unico) <----
+email (unico)
+password
+
+
+Media
+id (unico)
+nombre (unico)
+contenido
+tipo (audio, video o imagen)
+usuario_id (clave externa a id de Usuario) (unico) ----
