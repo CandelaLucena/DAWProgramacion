@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Media {
     private int id; //unico clave principal
@@ -84,10 +85,12 @@ public class Media {
     }
 
     public static void eliminarMediaCompleta(MediaType tipo){
-        for (Media item : media){
+        Iterator <Media> iter = media.iterator();
+        while (iter.hasNext()){
+            Media item = iter.next();
             if(tipo.equals(item.getTipo())){
-                media.remove(item);
-            }
+                iter.remove();
+            }          
         }
     }
 

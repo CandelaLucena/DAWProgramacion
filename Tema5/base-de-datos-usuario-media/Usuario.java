@@ -9,7 +9,7 @@ public class Usuario {
     private static ArrayList<Usuario> usuarios = new ArrayList<Usuario>();
     private static int idGenerator = 0;
     
-    public Usuario(int id, String email, String password) {
+    public Usuario(String email, String password) {
 
         this.id = idGenerator++;
         this.password = password;
