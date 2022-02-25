@@ -59,6 +59,17 @@ public class Usuario {
         for (Usuario item : usuarios){
             if(email.equals(item.getEmail())){
                 usuarios.remove(item);
+                break;
+            }
+        }
+    }
+
+    public static void eliminarUsuarioPorDominio(String dominio){
+        //cambiar a Iterator
+        for (Usuario item : usuarios){
+            if(item.getEmail().contains(dominio)){
+                usuarios.remove(item);
+                break;
             }
         }
     }
