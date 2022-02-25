@@ -14,15 +14,16 @@ public class Usuario {
         this.id = idGenerator++;
         this.password = password;
 
-        if(this.esValido(email)){
+        if(this.esValidoEmail(email)){
             this.email = email;
             usuarios.add(this);
         }else{
+            this.id = -1;
             this.email = "Correo duplicado; " + email;
         }
     }
 
-    private boolean esValido(String email){
+    private boolean esValidoEmail(String email){
         boolean resultado = true;
 
         for (Usuario usuario : usuarios){
@@ -52,5 +53,13 @@ public class Usuario {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public static void eliminarUsuario(String email){
+        for (Usuario item : usuarios){
+            if(email.equals(item.getEmail())){
+                usuarios.remove(item);
+            }
+        }
     }
 }
