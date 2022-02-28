@@ -101,4 +101,18 @@ public class Media {
     //              iter.remove();
     //      }          
     //}
+
+    public void mediaGenerateXML(){
+        String generateXML = "";
+
+        generateXML += "<media>";
+        generateXML += "<id>" + getId() + "</id>";
+        generateXML += "<nombre>" + getNombre() + "</nombre>";
+        generateXML += "<contenido>" + getContenido() + "</contenido>";
+        generateXML += "<tipo>" + getTipo() + "</tipo>";
+        generateXML += "<usuario_id>" + getUsuario_id() + "</usuario_id>";
+        generateXML += "</media>";
+        
+        System.out.println(generateXML);
+    }
 }

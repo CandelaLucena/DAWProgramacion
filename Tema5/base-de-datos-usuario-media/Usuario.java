@@ -73,4 +73,16 @@ public class Usuario {
             }
         }
     }
+
+    public void usuarioGenerateXML(){
+        String generateXML = "";
+
+        generateXML += "<usuario>";
+        generateXML += "<id>" + getId() + "</id>";
+        generateXML += "<email>" + getEmail() + "</email>";
+        generateXML += "<password>" + getPassword() + "</password>";
+        generateXML += "</usuario>";
+        
+        System.out.println(generateXML);
+    }
 }
