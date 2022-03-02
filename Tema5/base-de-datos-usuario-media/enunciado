@@ -13,15 +13,15 @@ usuario_id (clave externa a id de Usuario) (unico) ----
 
 
 1. Eliminar archivo objeto media de la aplicacion por el nombre del fichero
-
 2. Eliminar todos los media de un tipo concreto
 
 -------
 
 3a. Eliminar un usuario por email
 3b. Eliminar media del usuario borrado
-
 4. Eliminar usuarios de un dominio (Ej: @gmail.com)
+
+
 
 Crear interfaz ParserXML con metodo: String generateXML()
 Usuario generateXML(){

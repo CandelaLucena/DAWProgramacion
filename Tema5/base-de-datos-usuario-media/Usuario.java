@@ -1,6 +1,7 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
-public class Usuario {
+public class Usuario implements ParserXML{
     private int id; //unico clave principal
     private String email; //unico
     private String password;
@@ -65,24 +66,24 @@ public class Usuario {
     }
 
     public static void eliminarUsuarioPorDominio(String dominio){
-        //cambiar a Iterator
-        for (Usuario item : usuarios){
-            if(item.getEmail().contains(dominio)){
-                usuarios.remove(item);
-                break;
+        Iterator<Usuario> iter = usuarios.iterator();
+        while(iter.hasNext()){
+            Usuario usuarios = iter.next();
+            if(usuarios.email.endsWith(dominio)){
+                iter.remove();
             }
         }
     }
 
-    public void usuarioGenerateXML(){
-        String generateXML = "";
+    public String generateXML(){
+        String XML = "";
 
-        generateXML += "<usuario>";
-        generateXML += "<id>" + getId() + "</id>";
-        generateXML += "<email>" + getEmail() + "</email>";
-        generateXML += "<password>" + getPassword() + "</password>";
-        generateXML += "</usuario>";
+        XML += "<usuario>";
+        XML += "<id>" + id + "</id>";
+        XML += "<email>" + email + "</email>";
+        XML += "<password>" + password + "</password>";
+        XML += "</usuario>";
         
-        System.out.println(generateXML);
+        return XML;
     }
 }

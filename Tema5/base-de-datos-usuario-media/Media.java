@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Media {
+public class Media implements ParserXML{
     private int id; //unico clave principal
     private String nombre; //unico
     private String contenido;
@@ -101,18 +101,28 @@ public class Media {
     //              iter.remove();
     //      }          
     //}
+    
+    public static void eliminarTodoPorUserID (int id){
+        Iterator<Media> iter = media.iterator();
+        while(iter.hasNext()){
+            Media media = iter.next();
+            if(media.getUsuario_id().getId() == id){
+                iter.remove();
+            }
+        }
+    }
 
-    public void mediaGenerateXML(){
-        String generateXML = "";
+    public String generateXML(){
+        String XML = "";
 
-        generateXML += "<media>";
-        generateXML += "<id>" + getId() + "</id>";
-        generateXML += "<nombre>" + getNombre() + "</nombre>";
-        generateXML += "<contenido>" + getContenido() + "</contenido>";
-        generateXML += "<tipo>" + getTipo() + "</tipo>";
-        generateXML += "<usuario_id>" + getUsuario_id() + "</usuario_id>";
-        generateXML += "</media>";
+        XML += "<media>";
+        XML += "<id>" + id + "</id>";
+        XML += "<nombre>" + nombre + "</nombre>";
+        XML += "<contenido>" + contenido + "</contenido>";
+        XML += "<tipo>" + tipo + "</tipo>";
+        XML += "<usuario_id>" + usuario_id + "</usuario_id>";
+        XML += "</media>";
         
-        System.out.println(generateXML);
+        return XML;
     }
 }
