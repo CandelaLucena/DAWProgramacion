@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * Store details of club memberships.
@@ -8,13 +9,14 @@ import java.util.ArrayList;
  */
 public class Club{
     // Define any necessary fields here ...
-    private static ArrayList<Membership> members = new ArrayList<Membership>();
+    private ArrayList<Membership> members;
     
     /**
      * Constructor for objects of class Club
      */
     public Club(){
         // Initialise any fields here ...
+        members = new ArrayList<Membership>();
         
     }
 
@@ -23,7 +25,7 @@ public class Club{
      * @param member The member object to be added.
      */
     public void join(Membership member){
-        members.add(this);
+        members.add(member);
     }
 
     /**
@@ -56,5 +58,18 @@ public class Club{
             System.out.println("Error");
             return resultado;
         }
+    }
+
+    public int purge(int month){
+        int resultado = 0;
+        Iterator<Membership> iter = members.iterator();
+        while(iter.hasNext()){
+            Membership item = iter.next();
+            if(item.getMonth() == month){
+                iter.remove();
+                resultado++;
+            }
+        }
+        return resultado;
     }
 }
