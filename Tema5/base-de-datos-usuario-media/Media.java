@@ -115,14 +115,16 @@ public class Media implements ParserXML{
     public String generateXML(){
         String XML = "";
 
-        XML += "<media>";
-        XML += "<id>" + id + "</id>";
-        XML += "<nombre>" + nombre + "</nombre>";
-        XML += "<contenido>" + contenido + "</contenido>";
-        XML += "<tipo>" + tipo + "</tipo>";
-        XML += "<usuario_id>" + usuario_id + "</usuario_id>";
-        XML += "</media>";
+        XML += "<media>\n";
+        XML += "<id>" + id + "</id>\n";
+        XML += "<nombre>" + nombre + "</nombre>\n";
+        XML += "<contenido>" + contenido + "</contenido>\n";
+        XML += "<tipo>" + tipo + "</tipo>\n";
+        XML += "<usuario_id>" + usuario_id + "</usuario_id>\n";
+        XML += "</media>\n";
         
         return XML;
     }
+
+    
 }

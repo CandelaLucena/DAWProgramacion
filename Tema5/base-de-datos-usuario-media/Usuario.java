@@ -78,11 +78,11 @@ public class Usuario implements ParserXML{
     public String generateXML(){
         String XML = "";
 
-        XML += "<usuario>";
-        XML += "<id>" + id + "</id>";
-        XML += "<email>" + email + "</email>";
-        XML += "<password>" + password + "</password>";
-        XML += "</usuario>";
+        XML += "<usuario>\n";
+        XML += "<id>" + id + "</id>\n";
+        XML += "<email>" + email + "</email>\n";
+        XML += "<password>" + password + "</password>\n";
+        XML += "</usuario>\n";
         
         return XML;
     }

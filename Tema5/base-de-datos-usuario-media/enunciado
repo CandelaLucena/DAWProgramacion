@@ -42,3 +42,8 @@ Media generateXML(){
 interface ParserXML{
 
 }
+
+Cutrecloud:
+1.Obtener metodo string en xml pero pasarlo a un fichero.
+2.Crear UsuarioInput.java, aparece un menu por la consola con dos opciones 1)para nuevo usuario (pide nombre, email y contraseña 0)para salir, 
+crea el usuario y lo añade a la carperta usuarios.
