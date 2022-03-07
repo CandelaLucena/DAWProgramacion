@@ -1,3 +1,5 @@
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -126,5 +128,16 @@ public class Media implements ParserXML{
         return XML;
     }
 
-    
+    public void ficheroXML(Media media){
+        try{
+            FileWriter myWriter = new FileWriter("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios/mediasficheroMedia.txt", true);
+            myWriter.write(media.generateXML());
+            myWriter.write(" \n");
+            myWriter.close();
+            System.out.println("Successfully wrote to the file.");
+        }catch (IOException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
+    }
 }
