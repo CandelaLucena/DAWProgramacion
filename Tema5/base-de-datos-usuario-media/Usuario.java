@@ -1,3 +1,5 @@
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -85,5 +87,18 @@ public class Usuario implements ParserXML{
         XML += "</usuario>\n";
         
         return XML;
+    }
+
+    public void ficheroXML(Usuario usuario){
+        try{
+            FileWriter myWriter = new FileWriter("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios/usuariosficheroUsuario.txt", true);
+            myWriter.write(usuario.generateXML());
+            myWriter.write(" \n");
+            myWriter.close();
+            System.out.println("Successfully wrote to the file.");
+        }catch (IOException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
     }
 }
