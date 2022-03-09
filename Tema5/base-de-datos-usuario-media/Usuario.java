@@ -102,7 +102,7 @@ public class Usuario implements ParserXML{
 
     public void ficheroXML(Usuario usuario){
         try{
-            FileWriter myWriter = new FileWriter("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios/"+id+email+".xml");
+            FileWriter myWriter = new FileWriter("DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios/"+id+email+".xml");
             myWriter.write(usuario.generateXML());
             myWriter.write(" \n");
             myWriter.close();
@@ -127,7 +127,7 @@ public class Usuario implements ParserXML{
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         factory.setNamespaceAware(true);
         DocumentBuilder builder = factory.newDocumentBuilder();
-        Document doc = builder.parse("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios" + archivo);
+        Document doc = builder.parse("DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios/" + archivo);
         XPathFactory xpathfactory = XPathFactory.newInstance();
         XPath xpath = xpathfactory.newXPath();
         String resultadoEmail = "";
