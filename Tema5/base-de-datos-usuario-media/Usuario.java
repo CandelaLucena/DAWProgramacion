@@ -4,6 +4,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpression;
+import javax.xml.xpath.XPathFactory;
+ 
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+
 public class Usuario implements ParserXML{
     private int id; //unico clave principal
     private String email; //unico
@@ -104,18 +114,42 @@ public class Usuario implements ParserXML{
     }
 
     //public static void leerFicheroXML(String archivo){
-       // try{
-         //   FileReader fr=new FileReader("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios/"+archivo+".xml");
-           // fr.close();
-        //}catch(IOException e){
-          //  System.out.println("An error occurred.");
-            //e.printStackTrace();
-        //}
-
+    //    try{
+    //        FileReader fr=new FileReader("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios/"+archivo+".xml");
+    //        fr.close();
+    //    }catch(IOException e){
+    //        System.out.println("An error occurred.");
+    //        e.printStackTrace();
+    //    }
     //}
 
-    public static void leerFicheroXML(String archivo){
+    public static void leerFicheroXMLYCrearUsuario(String archivo) throws Exception {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        factory.setNamespaceAware(true);
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document doc = builder.parse(archivo);
+        XPathFactory xpathfactory = XPathFactory.newInstance();
+        XPath xpath = xpathfactory.newXPath();
+        String resultadoEmail = "";
+        String resultadoPassword = "";
+
+
+        XPathExpression expr = xpath.compile("//email/text()");
+        Object result = expr.evaluate(doc, XPathConstants.NODESET);
+        NodeList nodes = (NodeList) result;
+        for (int i = 0; i < nodes.getLength(); i++) {
+            resultadoEmail = nodes.item(i).getNodeValue();
+        }
         
+
+        expr = xpath.compile("//password/text()");
+        result = expr.evaluate(doc, XPathConstants.NODESET);
+        nodes = (NodeList) result;
+        for (int i = 0; i < nodes.getLength(); i++) {
+            resultadoPassword = nodes.item(i).getNodeValue();
+        }
+
+        Usuario usuario = new Usuario(resultadoEmail, resultadoPassword);
+        usuario.ficheroXML(usuario);
     }
-    
 }
