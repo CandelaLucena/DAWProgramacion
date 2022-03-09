@@ -127,7 +127,7 @@ public class Usuario implements ParserXML{
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         factory.setNamespaceAware(true);
         DocumentBuilder builder = factory.newDocumentBuilder();
-        Document doc = builder.parse(archivo);
+        Document doc = builder.parse("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios" + archivo);
         XPathFactory xpathfactory = XPathFactory.newInstance();
         XPath xpath = xpathfactory.newXPath();
         String resultadoEmail = "";
