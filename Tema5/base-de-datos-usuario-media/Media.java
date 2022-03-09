@@ -130,7 +130,7 @@ public class Media implements ParserXML{
 
     public void ficheroXML(Media media){
         try{
-            FileWriter myWriter = new FileWriter("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios/mediasficheroMedia.txt", true);
+            FileWriter myWriter = new FileWriter("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios/"+id+nombre+".xml");
             myWriter.write(media.generateXML());
             myWriter.write(" \n");
             myWriter.close();

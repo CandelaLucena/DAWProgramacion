@@ -1,3 +1,4 @@
+//import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -91,7 +92,7 @@ public class Usuario implements ParserXML{
 
     public void ficheroXML(Usuario usuario){
         try{
-            FileWriter myWriter = new FileWriter("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios/usuariosficheroUsuario.txt", true);
+            FileWriter myWriter = new FileWriter("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios/"+id+email+".xml");
             myWriter.write(usuario.generateXML());
             myWriter.write(" \n");
             myWriter.close();
@@ -101,4 +102,20 @@ public class Usuario implements ParserXML{
             e.printStackTrace();
         }
     }
+
+    //public static void leerFicheroXML(String archivo){
+       // try{
+         //   FileReader fr=new FileReader("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema5/base-de-datos-usuario-media/usuarios/"+archivo+".xml");
+           // fr.close();
+        //}catch(IOException e){
+          //  System.out.println("An error occurred.");
+            //e.printStackTrace();
+        //}
+
+    //}
+
+    public static void leerFicheroXML(String archivo){
+        
+    }
+    
 }
