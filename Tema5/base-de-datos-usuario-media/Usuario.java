@@ -137,17 +137,15 @@ public class Usuario implements ParserXML{
         XPathExpression expr = xpath.compile("//email/text()");
         Object result = expr.evaluate(doc, XPathConstants.NODESET);
         NodeList nodes = (NodeList) result;
-        for (int i = 0; i < nodes.getLength(); i++) {
-            resultadoEmail = nodes.item(i).getNodeValue();
-        }
+        resultadoEmail = nodes.item(0).getNodeValue();
+        
         
 
         expr = xpath.compile("//password/text()");
         result = expr.evaluate(doc, XPathConstants.NODESET);
         nodes = (NodeList) result;
-        for (int i = 0; i < nodes.getLength(); i++) {
-            resultadoPassword = nodes.item(i).getNodeValue();
-        }
+        resultadoPassword = nodes.item(0).getNodeValue();
+        
 
         Usuario usuario = new Usuario(resultadoEmail, resultadoPassword);
         usuario.ficheroXML(usuario);
