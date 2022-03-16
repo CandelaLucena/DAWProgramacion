@@ -3,10 +3,6 @@ package rpg.Character.Race;
 import rpg.Character.Stat.Stat;
 
 public abstract class Race {
-    
-    public Race() {
-    }
-
     //Devuelve el modificador de la profesión segun el stat
     public abstract int modifier(Stat stat);
     
