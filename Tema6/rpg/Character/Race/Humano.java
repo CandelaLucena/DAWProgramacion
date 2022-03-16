@@ -1,4 +1,4 @@
-package Character.Race;
+package rpg.Character.Race;
 
 public class Humano {
     

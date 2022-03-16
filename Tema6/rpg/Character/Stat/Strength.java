@@ -1,4 +1,4 @@
-package Character.Stat;
+package rpg.Character.Stat;
 
 public class Strength {
     
