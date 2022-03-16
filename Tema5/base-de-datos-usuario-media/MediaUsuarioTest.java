@@ -10,7 +10,6 @@ public class MediaUsuarioTest {
         try {
             Usuario.leerFicheroXMLYCrearUsuario("1234.xml");
         } catch (Exception e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
