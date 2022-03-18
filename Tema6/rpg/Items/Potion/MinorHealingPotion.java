@@ -1,6 +1,6 @@
-package rpg.Items.Food;
+package rpg.Items.Potion;
 
-public class Chicken extends Food {
+public class MinorHealingPotion extends Potion{
 
     public void consumedBy(Character character) {
         power = 25;

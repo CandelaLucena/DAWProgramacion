@@ -96,7 +96,7 @@ public class Character implements IDamageable{
     }
 
     public void consumes(IConsumable consumable) {
-    
+        
         
     }
 }
