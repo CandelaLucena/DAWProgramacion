@@ -61,7 +61,7 @@ public class Character implements IDamageable{
     public String toString(){
         return "My name is "+getName()+". I’m an "+getRace()+" "+getJob()+"."+
         "My stats are:"+
-        "Health: 125.0"+
+        "Health: "+health()+"/"+maxHealth()+
         "Strength: "+strength.getValue()+" Dexterity: "+dexterity.getValue()+" Constitution: "+constitution.getValue()+" Intelligence: "+inteligence.getValue()+" "+
         "Velocity: "+velocity()+" Power: "+power()+" Magic: "+magic();
     }
@@ -87,14 +87,12 @@ public class Character implements IDamageable{
 
     @Override
     public void receivesDamage(double amount) {
-    
-        
+        health = health - amount;
     }
     
     @Override
     public void heals(double amount) {
-        
-        
+        health =  health + amount;
     }
 
     public void consumes(IConsumable consumable) {
