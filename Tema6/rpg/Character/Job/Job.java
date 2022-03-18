@@ -11,6 +11,7 @@ public abstract class Job {
     public boolean equals(Object obj){
         return true;
     }
+    
     @Override
     //Devuelve el nombre simple de la clase
     public String toString(){

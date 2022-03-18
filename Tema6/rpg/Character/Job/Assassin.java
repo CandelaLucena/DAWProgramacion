@@ -18,8 +18,7 @@ public class Assassin extends Job{
         }else if(stat instanceof Constitution){
             resultado = 1;
         }
-
+        
         return resultado;
     }
-    
 }

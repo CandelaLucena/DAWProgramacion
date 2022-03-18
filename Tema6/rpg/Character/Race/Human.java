@@ -1,11 +1,11 @@
 package rpg.Character.Race;
 
 import rpg.Character.Stat.Constitution;
-import rpg.Character.Stat.Inteligence;
+import rpg.Character.Stat.Dexterity;
 import rpg.Character.Stat.Stat;
 import rpg.Character.Stat.Strength;
 
-public class Orco extends Race{
+public class Human extends Race{
 
     @Override
     public int modifier(Stat stat) {
@@ -13,11 +13,11 @@ public class Orco extends Race{
         int resultado = 0;
 
         if(stat instanceof Strength){
-            resultado = 5;
-        }else if(stat instanceof Inteligence){
-            resultado = -3;
+            resultado = 2;
+        }else if(stat instanceof Dexterity){
+            resultado = 1;
         }else if(stat instanceof Constitution){
-            resultado = 3;
+            resultado = 2;
         }
 
         return resultado;

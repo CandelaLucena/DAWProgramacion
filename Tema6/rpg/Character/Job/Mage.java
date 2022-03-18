@@ -15,8 +15,7 @@ public class Mage extends Job{
         }else if(stat instanceof Inteligence){
             resultado = 4;
         }
-
+        
         return resultado;
     }
-    
 }

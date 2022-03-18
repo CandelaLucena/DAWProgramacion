@@ -15,8 +15,7 @@ public class Warrior extends Job{
         }else if(stat instanceof Constitution){
             resultado = 2;
         }
-
+        
         return resultado;
     }
-    
 }
