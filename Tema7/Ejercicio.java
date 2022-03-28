@@ -8,7 +8,7 @@ public class Ejercicio {
 
         File f = new File(File.listRoots()[0]);
 
-        System.out.println("Lista de ficheros y directorios del directorio root "+ File.listRoots() [0]);
+        System.out.println("Lista de ficheros y directorios del directorio root: "+ File.listRoots() [0]);
 
         System.out.println("---------------------------------------------------");
 
