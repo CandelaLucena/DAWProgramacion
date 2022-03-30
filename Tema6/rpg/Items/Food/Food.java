@@ -3,8 +3,12 @@ package rpg.Items.Food;
 import rpg.Character.Character;
 
 public abstract class Food implements IConsumable{
-    double power;
+    private double power;
     
+    public Food(double power) {
+        this.power = power;
+    }
+
     public void consumedBy(Character character){
         character.heals(power);
     }

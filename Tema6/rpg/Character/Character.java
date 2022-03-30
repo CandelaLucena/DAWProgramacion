@@ -9,24 +9,25 @@ import rpg.Character.Stat.Strength;
 import rpg.Items.Food.IConsumable;
 
 public class Character implements IDamageable{
-    String name;
-    Race race;
-    Job job;
-    Strength strength;
-    Constitution constitution;
-    Dexterity dexterity;
-    Inteligence inteligence;
-    double health = maxHealth();
+    private String name;
+    private Race race;
+    private Job job;
+    private double health;
+    private Strength strength;
+    private Constitution constitution;
+    private Dexterity dexterity;
+    private Inteligence inteligence;
+    
 
-    public Character(String name, Race race, Job job, Strength strength, Constitution constitution, Dexterity dexterity,
-            Inteligence inteligence) {
+    public Character(String name, Race race, Job job, int strength, int constitution, int dexterity, int inteligence) {
         this.name = name;
         this.race = race;
         this.job = job;
-        this.strength = strength;
-        this.constitution = constitution;
-        this.dexterity = dexterity;
-        this.inteligence = inteligence;
+        health = maxHealth();
+        this.strength = new Strength(strength);
+        this.constitution = new Constitution(constitution);
+        this.dexterity = new Dexterity(dexterity);
+        this.inteligence = new Inteligence(inteligence);
     }
 
     public String getName(){
@@ -97,6 +98,5 @@ public class Character implements IDamageable{
 
     public void consumes(IConsumable consumable) {
         System.out.println(getName()+" consumed: "+consumable);
-        
     }
 }
