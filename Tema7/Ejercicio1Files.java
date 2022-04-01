@@ -32,6 +32,8 @@ public class Ejercicio1Files {
                 System.out.println(e);
             }
         }
-    }
+        do{
 
+        }while(!(ent.equals("-1")));
+    }
 }
