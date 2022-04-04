@@ -1,39 +1,35 @@
 import java.io.File;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class Ejercicio1Files {
 
     public static void main(String[] args) throws IOException {
-        int contador = 0;
+        Scanner scanner = new Scanner(System.in);
+        File actualFile = File.listRoots()[0];
+        int id = 0;
+        int listIDFiles;
 
-        //Abre el directorio root
-        File files1 = File.listRoots()[0];
-        System.out.println("Lista de ficheros y directorios del directorio root: "+ File.listRoots()[0]);
+        System.out.println("Lista de ficheros y directorios del directorio root: "+ actualFile.getName());
         System.out.println("---------------------------------------------------");
-
-        //recorre la lista de ficheros (recordad que un directorio es un tipo especial de fichero)
-        for (String e : files1.list()){
-            System.out.println(contador+". "+e);
-            contador++;
+        for (String e : actualFile.list()){
+            System.out.println(id+".- "+e);
+            id++;
         }
 
-        System.out.println("Introduce un directorio:");
-        String ent = new BufferedReader(new InputStreamReader(System.in)).readLine();
-
-        if(ent.equals("0")){
-        }else{
-            File files2 = new File(ent);
-
-            System.out.println("Lista de ficheros y directorios del directorio: " + ent);
-            System.out.println("---------------------------------------------------");
-            for (String e : files2.list()) {
-                System.out.println(e);
-            }
-        }
         do{
-
-        }while(!(ent.equals("-1")));
+            id = 0;
+            System.out.println("Introduce un directorio:");
+            listIDFiles = scanner.nextInt();
+            if(listIDFiles == 0){
+            }else{
+                actualFile = File.listRoots()[listIDFiles];
+                for (String e : actualFile.list()){
+                    System.out.println(id+".- "+e);
+                    id++;
+                }
+            }
+        }while(!(listIDFiles == -1));
+        scanner.close();
     }
 }
