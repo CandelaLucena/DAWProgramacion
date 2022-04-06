@@ -23,7 +23,7 @@ public class Ejercicio1Files {
             listIDFiles = scanner.nextInt();
             if(listIDFiles == 0){
             }else{
-                actualFile = File.listRoots()[listIDFiles];
+                actualFile = actualFile.listFiles()[listIDFiles];
                 for (String e : actualFile.list()){
                     System.out.println(id+".- "+e);
                     id++;
