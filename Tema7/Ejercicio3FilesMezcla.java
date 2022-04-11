@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -26,6 +27,9 @@ public class Ejercicio3FilesMezcla {
         //for (String item : leerfichero2) {
         //    System.out.println(item);
         //}
+        
+        PrintStream o = new PrintStream(new File("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema7/fichero3.txt"));
+        System.setOut(o);
 
         do{
             if(leerfichero1.size()>contador){
