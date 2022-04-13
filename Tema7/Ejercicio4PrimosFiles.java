@@ -4,26 +4,29 @@ import java.io.PrintStream;
 
 public class Ejercicio4PrimosFiles {
     public static void main(String[] args) throws FileNotFoundException {
-        int contador = 0;
+        int contador = 1;
+        int contadorNumeros = 1;
         PrintStream o = new PrintStream(new File("/home/INFORMATICA/alu11063022/Escriptori/Repositorios/DAWProgramacion/Tema7/primos.dat"));
         PrintStream console = System.out;
 
-        for (int index = 1; index < 500; index++) {
-
-            for (int i = 1; i < index; i++) {
-                if (index % i == 0){
+        do{
+            for (int i = 2; i <= contadorNumeros; i++) {
+                if( contadorNumeros%i == 0){
                     contador++;
                 }
             }
-            if (contador == 2){
+    
+            if (contador <= 2){
                 System.setOut(o);
-                System.out.println(index+" es primo");
-                contador = 0;
+                System.out.println(contadorNumeros+" es primo");
+                contador = 1;
             }else{
                 System.setOut(console);
-                System.out.println(index+" no es primo");
-                contador = 0;
+                System.out.println(contadorNumeros+" no es primo");
+                contador = 1;
             }
-        }
+
+            contadorNumeros++;
+        }while(!(contadorNumeros == 500));
     }
 }
