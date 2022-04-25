@@ -8,16 +8,16 @@ public class Ejercicio3FilesMezcla {
     public static void main(String[] args) throws FileNotFoundException {
         int contador = 0;
         Scanner scanner1 = new Scanner(new File("DAWProgramacion/Tema7/fichero1.txt"));
-        ArrayList<String> leerfichero1 = new ArrayList<String>();
+        ArrayList<String> leerFichero1 = new ArrayList<String>();
         while (scanner1.hasNext()){
-            leerfichero1.add(scanner1.next());
+            leerFichero1.add(scanner1.next());
         }
         scanner1.close();
 
         Scanner scanner2 = new Scanner(new File("DAWProgramacion/Tema7/fichero2.txt"));
-        ArrayList<String> leerfichero2 = new ArrayList<String>();
+        ArrayList<String> leerFichero2 = new ArrayList<String>();
         while (scanner2.hasNext()){
-            leerfichero2.add(scanner2.next());
+            leerFichero2.add(scanner2.next());
         }
         scanner2.close();
 
@@ -32,13 +32,13 @@ public class Ejercicio3FilesMezcla {
         System.setOut(o);
 
         do{
-            if(leerfichero1.size()>contador){
-                System.out.println(leerfichero1.get(contador));
+            if(leerFichero1.size()>contador){
+                System.out.println(leerFichero1.get(contador));
             }
-            if(leerfichero2.size()>contador){
-                System.out.println(leerfichero2.get(contador));
+            if(leerFichero2.size()>contador){
+                System.out.println(leerFichero2.get(contador));
             }
             contador++;
-        }while(!(leerfichero1.size()<contador&&leerfichero2.size()<contador));
+        }while(!(leerFichero1.size()<contador&&leerFichero2.size()<contador));
     }
 }
