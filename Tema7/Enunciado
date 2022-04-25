@@ -76,7 +76,15 @@ deben pasar como argumentos en la línea de comandos.
 
 Dos versiones:
 
-Realiza un programa que elimine los comentarios de un programa escrito en Java. Solo los comentarios que empiezan por //
+Realiza un programa que elimine los comentarios de un programa escrito en 
+Java. Solo los comentarios que empiezan por //
 
-Realiza un programa que elimine todos los comentarios de un programa escrito en Java.
- 
+Realiza un programa que elimine todos los comentarios de un programa escrito
+en Java.
+
+## Estadisticas texto
+
+Crea un programa que analice un texto plano y muestre las siguiente 
+estadisticas: numero de letras, numero de palabras, numero de lineas,
+porcentaje de vocales (a y á son vocales, é, í, ó, ú), porcentaje de consonantes,
+porcentaje de espacios,porcentaje de tabuladores.
