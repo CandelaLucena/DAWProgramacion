@@ -1,7 +1,7 @@
 public abstract class Persona {
-    private String nif;
-    private String nombre;
-    private String apellidos;
+    protected String nif;
+    protected String nombre;
+    protected String apellidos;
 
     public String getNif() {
         return nif;

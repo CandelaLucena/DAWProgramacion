@@ -8,6 +8,7 @@ public class Cliente extends Persona{
         this.nif = nif;
         this.nombre = nombre;
         this.apellidos = apellidos;
+        //clientes.add(this);
     }
 
     public int getId() {
@@ -28,7 +29,13 @@ public class Cliente extends Persona{
 
     @Override
     public String toString() {
-        return "Cliente [email=" + email + ", id=" + id +"]";
+        return "Id                  "+id+
+               "Nif                 "+nif+
+               "Nombre              "+nombre+
+               "Apellidos           "+apellidos+
+               "Email               "+email;
     }
+
+    
     
 }
