@@ -1,14 +1,17 @@
+import java.util.ArrayList;
+
 public class Cliente extends Persona{
     private int id;
     private String email;
-
+    private ArrayList<Cliente> clientes = new ArrayList<Cliente>();
+    
     public Cliente(int id, String email, String nif, String nombre, String apellidos) {
         this.id = id;
         this.email = email;
         this.nif = nif;
         this.nombre = nombre;
         this.apellidos = apellidos;
-        //clientes.add(this);
+        clientes.add(this);
     }
 
     public int getId() {
@@ -35,7 +38,4 @@ public class Cliente extends Persona{
                "Apellidos           "+apellidos+
                "Email               "+email;
     }
-
-    
-    
 }
