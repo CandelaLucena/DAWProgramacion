@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Cliente extends Persona{
     private int id;
     private String email;
-    private ArrayList<Cliente> clientes = new ArrayList<Cliente>();
+    private static ArrayList<Cliente> clientes = new ArrayList<Cliente>();
     
     public Cliente(int id, String email, String nif, String nombre, String apellidos) {
         this.id = id;

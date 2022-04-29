@@ -10,7 +10,10 @@ public class PersistenciaCliente {
         Scanner scanner = new Scanner(new File("DAWProgramacion/Control04/clientes.dat"));
         PrintStream o = new PrintStream(new File("DAWProgramacion/Control04/clientes.dat"));
         System.setOut(o);
-
+        for (int i = 0; i < clientes.size(); i++) {
+            System.out.println(i);
+        }
+        
     }
     public void read() throws FileNotFoundException{
         Scanner scanner = new Scanner(new File("DAWProgramacion/Control04/clientes.dat"));
