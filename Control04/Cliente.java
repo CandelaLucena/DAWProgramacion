@@ -1,24 +1,22 @@
 import java.util.ArrayList;
 
 public class Cliente extends Persona{
-    private int id;
+    private String id;
     private String email;
     private static ArrayList<Cliente> clientes = new ArrayList<Cliente>();
     
-    public Cliente(int id, String email, String nif, String nombre, String apellidos) {
+    public Cliente(String id, String email, String nif, String nombre, String apellidos) {
+        super(nif, nombre, apellidos);
         this.id = id;
         this.email = email;
-        this.nif = nif;
-        this.nombre = nombre;
-        this.apellidos = apellidos;
         clientes.add(this);
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -30,12 +28,11 @@ public class Cliente extends Persona{
         this.email = email;
     }
 
-    @Override
     public String toString() {
-        return "Id                  "+id+
-               "Nif                 "+nif+
-               "Nombre              "+nombre+
-               "Apellidos           "+apellidos+
-               "Email               "+email;
+        return "nif:\t"+ nif+
+               "nombre:\t"+  nombre+
+               "apellidos:\t"+  apellidos+
+               "id:\t"+  id+
+               "email:\t"+ email;
     }
 }
