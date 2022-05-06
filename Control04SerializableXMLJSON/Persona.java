@@ -1,4 +1,6 @@
-public abstract class Persona {
+import java.io.Serializable;
+//marcar como serializable la clase de la que va a heredar
+public abstract class Persona implements Serializable{
     protected String nif;
     protected String nombre;
     protected String apellidos;

@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 
-public class Cliente extends Persona{
+public class Cliente extends Persona {
+
+    private static final long serialVersionUID = 1L;
+
     private String id;
     private String email;
     private static ArrayList<Cliente> clientes = new ArrayList<Cliente>();
