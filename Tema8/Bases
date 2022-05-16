@@ -1,0 +1,5 @@
+Leer tema
+Instalar Mysql y PhpMyAdmin/PhpMyAmin (LAMP)
+Crear base de datos llamada programacion, dentro crear una tabla llamada cliente con los campos
+del ejercicio del tema 7, persistenciacliente id nombre apellido email nif... obtener todos los
+clientes de la tabla desde java
