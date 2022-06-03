@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TestDB",
+            "request": "launch",
+            "mainClass": "TestDB",
+            "projectName": "DAWProgramacion_9d058cdd"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
