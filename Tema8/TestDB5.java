@@ -7,25 +7,20 @@ import java.util.Scanner;
 /**
  * TestDB
  */
-public class TestDB4 {
+public class TestDB5 {
 
     public static void main(String[] args) {
         String nif= "";
         String nombre="";
-        String apellido="";
-        String email="";
         Scanner lector = new Scanner(System.in);
         System.out.println("Introduzca nif:");
         nif = lector.nextLine();
         System.out.println("Introduzca nombre");
         nombre = lector.nextLine();
-        System.out.println("Introduzca apellido:");
-        apellido = lector.nextLine();
-        System.out.println("Introduzca email:");
-        email = lector.nextLine();
         lector.close();
-        String sqlSelectAllPersons = "INSERT INTO `Cliente` (`id`, `nif`, `nombre`, `apellido`, `email`) VALUES (null, '"+nif+"', '"+nombre+"', '"+apellido+"', '"+email+"')";
-        String connectionUrl = "jdbc:mysql://192.168.204.168:3306/Clientes";
+
+        String sqlSelectAllPersons = "update Cliente set nombre = '"+nombre+"' where nif = '"+nif+"'";
+        String connectionUrl = "jdbc:mysql://192.168.204.145:3306/Clientes";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
